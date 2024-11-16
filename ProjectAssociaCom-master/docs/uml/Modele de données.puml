@@ -1,0 +1,9 @@
+@startuml
+
+class President {
+
+Object[] elementData
+size()
+}
+
+@enduml
