@@ -1,7 +1,5 @@
 package com.AssociaCom.helloworld.dao.mapper;
 
-import com.AssociaCom.helloworld.dao.entity.SingInEntity;
-import com.AssociaCom.helloworld.model.SingIn;
 import org.springframework.stereotype.Component;
 
 @Component

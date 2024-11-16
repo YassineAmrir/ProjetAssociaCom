@@ -1,6 +1,5 @@
 package com.AssociaCom.helloworld.dao.repository;
 
-import com.AssociaCom.helloworld.dao.entity.SingInEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
