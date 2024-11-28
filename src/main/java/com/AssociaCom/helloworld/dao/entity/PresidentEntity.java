@@ -1,5 +1,6 @@
 package com.AssociaCom.helloworld.dao.entity;
 
+import com.AssociaCom.helloworld.model.Gender;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -23,7 +24,7 @@ public class PresidentEntity {
 	private LocalDate birthday;
 	private String phone;
 	private String email;
-	private String gender;
+	private Gender gender;
 	@OneToOne(mappedBy = "president")
 	private AssociationEntity association;
 

@@ -1,6 +1,5 @@
 package com.AssociaCom.helloworld.service;
 
-import com.AssociaCom.helloworld.dao.repository.SingInRepository;
 import lombok.AllArgsConstructor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

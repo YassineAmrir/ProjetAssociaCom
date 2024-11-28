@@ -16,5 +16,5 @@ public class President {
     private LocalDate birthday;
     private String phone;
     private String email;
-    private String gender;
+    private Gender gender;
 }

@@ -41,7 +41,6 @@ public class AssociationRequestService {
         Optional<AssociationRequestEntity> associationRequest =associationRequestRepository.findByrequestId(requestId);
         if (associationRequest.isPresent())
         {
-
             AssociationRequestEntity associationRequestEntity= associationRequest.get();
             associationRequestEntity.setResponseDate(currentDate);
             associationRequestEntity.setStatus(State.ACCEPTED);
